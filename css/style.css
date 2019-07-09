@@ -1,0 +1,770 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display:block;
+    clear:both;
+}
+
+
+
+html {
+  font-family: roboto, arial, sans-serif;
+  font-size: 10px;
+  
+}
+
+header {
+    
+    position:relative;
+    background-image: url("header.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  
+}
+
+header div.welcome {
+    
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    right: 15%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #073038;
+    
+}
+
+header h1 {
+    
+    font-size: 20px;
+}
+
+header h2 {
+    
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+header button {
+    
+    line-height: 32px;
+    padding:0 20px;
+    text-transform: uppercase;
+    border: 2px solid #073038;
+    font-size: 12px;
+    background-color: transparent;
+    color: #073038;
+    margin-top: 18px;
+}
+
+header button a {
+    
+    text-decoration: none;
+    color:#073038;
+}
+
+header button a:visited {
+    color:#073038;
+}
+
+
+@media (orientation: landscape) {
+    
+    header div.welcome {
+    
+        top: 8%;
+        left: 13%;
+    }
+    
+    header h1 {
+        
+        font-size: 13px;
+    }
+    
+    header h2 {
+    
+    font-size: 11px;
+    padding-top: 15px;
+        
+}
+    header button {
+    
+    line-height: 20px;
+    padding:0 5px;
+    font-size: 10px;
+    margin-right: -13px; 
+}
+}
+
+@media (orientation: landscape) and (min-width: 731px) {
+    
+
+    header h1 {
+        
+        font-size: 17px;
+    }
+    
+    header h2 {
+    
+    font-size: 13px;
+    padding-top: 15px;
+        
+}
+    header button {
+    
+    line-height: 25px;
+    font-size: 13px;
+}
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+    
+
+    header h1 {
+        
+        font-size: 30px;
+    }
+    
+    header h2 {
+    
+    font-size: 25px;
+    padding-top: 30px;
+        
+}
+    header button {
+    
+    line-height: 35px;
+    font-size: 26px;
+    margin-top: 50px;
+    padding:10px 15px;
+}
+}
+
+@media (orientation: landscape) and (min-width: 1280px) {
+    
+    
+    header h1 {
+        
+        font-size: 37px;
+    }
+    
+    header h2 {
+    
+    font-size: 29px;
+    padding-top: 60px;
+        
+}
+    header button {
+    
+    line-height: 35px;
+    font-size: 26px;
+    margin-top: 50px;
+    padding:10px 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+    header button:hover {
+        
+        background-color: rgba(0,0,0,0.3);
+        border: 2px solid #717287;
+        color:whitesmoke;
+    }
+}
+
+@media (orientation: portrait) and (min-width: 360px) {
+    
+    header h1 {
+        
+    font-size: 25px;
+}
+    
+    header h2 {
+    
+    font-size: 18px;
+    padding-top: 22px;
+        
+}
+    
+    header button {
+    
+    line-height: 45px;
+    padding:0 5px;
+    font-size: 20px;
+    margin-right: -2px;
+    margin-top: 30px
+}
+}
+    
+@media (orientation: portrait) and (min-width: 700px) {
+    
+    header h1 {
+        
+    font-size: 35px;
+}
+    
+    header h2 {
+    
+    font-size: 25px;
+    padding-top: 30px;
+        
+}
+    
+    header button {
+    
+    line-height: 50px;
+    padding:0 15px;
+    font-size: 30px;
+    margin-right: -2px;
+    margin-top: 40px;
+    border: 3px solid #073038;
+} 
+    
+}
+ 
+/*SEKCJA NR 2 */
+
+
+
+
+    
+.skills {
+    
+    
+    background-image: linear-gradient(50deg, #C9D6FF, #E2E2E2);
+    padding: 10% 5% 10% 5%;
+    text-align: center;
+    
+}
+
+
+  .skills h1 {
+      
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+      
+}
+
+ .skills h2 {
+      
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+      
+}
+
+.skills img {
+    
+    width:100%;
+    margin-top: 30px;
+    opacity: 0.7;
+    max-width: 375px;
+}
+
+@media (min-width:768px) {
+    
+    .skills h1 {
+        
+        font-size: 34px;
+    }
+    
+    .skills h2 {
+        
+        font-size: 25px;
+    }
+}
+
+@media (min-width:1024px) {
+    
+    .skill {
+        
+        float:left;
+        width: 33%;
+        padding: 30px;
+        margin-top: 20px;
+    }
+    
+    .skills {
+        
+        padding-top: 155px;
+        padding-bottom: 150px;
+    }
+    
+    .skills h2 {
+        
+        font-size: 22px;
+        margin-top: 15px;
+    
+    }
+   
+}
+
+
+/* SEKCJA NR 3 */
+
+.aboutme {
+    
+    text-align: center;
+    background-image: url(../images/me.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-attachment: fixed;
+    
+}    
+
+.aboutme h1 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 30px 10px 10px 10px;
+  
+}
+
+.aboutme p.me {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 20px 25px;
+    line-height: 27px;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.bg {
+    
+    background-color: rgba(26, 75, 112, 0.78);
+    padding-bottom: 30px;
+    padding-top: 25px;
+    
+   
+}
+
+@media (orientation:landscape) {
+    
+    .aboutme p.me {
+        
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width:768px) {
+    
+    .aboutme h1 {
+        
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+    
+    .aboutme p {
+        
+        font-size: 30px;
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .bg {
+        
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+}
+
+@media (min-width:1024px) {
+    
+    
+    .aboutme h1 {
+        
+        font-size: 34px;
+        margin-bottom: 60px;
+    }
+    
+     .aboutme p.me {
+        
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 30px;
+         line-height: 45px;
+    }
+    
+    .bg {
+        
+        padding-bottom: 180px;
+        padding-top: 180px;
+    }
+}
+
+/* SEKCJA NR 4 */
+
+
+.hobby .item {
+    
+    height:30vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hobby .item p {
+    
+    font-family: 'Montserrat', sans-serif;
+    color:aliceblue;
+    text-align: center;
+    line-height: 30vh;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 15px;
+    
+    
+    
+}
+
+.hobby .item:nth-of-type(1) {
+    
+    background-image: url(../images/speedway.png)
+}
+
+.hobby .item:nth-of-type(2) {
+    
+    background-image: url(../images/watch.png)
+}
+
+.hobby .item:nth-of-type(3) {
+    
+    background-image: url(../images/camera.png)
+}
+
+.hobby .item:nth-of-type(4) {
+    
+    background-image: url(../images/ski.png)
+}
+
+.hobby h1 {
+    
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 25px; 
+    text-transform: uppercase;
+    font-size: 24px;
+    
+}
+
+@media (min-width:533px) {
+    
+    .hobby .item {
+        
+        float: left;
+        width: 50%;
+        height: 50vh;
+    }
+    
+    .hobby .item p {
+    
+    line-height: 50vh;
+   
+}
+    
+}
+
+@media (min-width:768px) {
+    
+    .hobby h1 {
+        
+        font-size: 35px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .hobby .item p {
+        
+        font-size: 35px;
+    }
+}
+
+@media (min-width:1024px) {
+    
+      .hobby .item p {
+        
+        opacity: 0;
+        transition: 0.7s;
+    }
+    
+    .hobby .item:hover p {
+        
+        opacity:1;
+    }
+    
+    .hobby .item {
+        
+        background-size: 100%;
+        transition: 0.7s;
+    }
+    
+     .hobby .item:hover {
+        
+        background-size: 120%;
+    }
+}
+
+/*SEKCJA KONTAKT  */
+
+.contact {
+    
+    background-image: linear-gradient(50deg, #304352, #d7d2cc);
+    padding: 30px 20px;
+}
+
+.contact h1 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact input, .contact button, textarea {
+    
+    width: 100%;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    padding: 5px;
+}
+
+
+.contact input {
+    
+    height: 36px;
+   
+}
+
+.contact textarea {
+    
+    height: 130px;
+}
+
+.contact button {
+    
+    font-size: 18px;
+    line-height: 40px;
+    border: 2px solid white;
+    color: black;
+    background-color: transparent;
+}
+
+.contact .socials {
+    
+    padding-top: 25px;
+    
+}
+
+.contact .social {
+    
+    padding: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact .social img {
+    
+    float: left;
+}
+
+.contact .social span {
+    
+    line-height: 72px;
+    font-size: 10px;
+    padding-left: 10px;
+    float: left;
+}
+
+@media (min-width:375px) {
+    
+    .contact .social span {
+    
+    line-height: 72px;
+    font-size: 14px;
+    
+}
+}
+
+@media (min-width:533px) {
+    
+   
+    
+    .contact .social span {
+    
+    line-height: 72px;
+    font-size: 20px;
+    
+}
+}
+
+@media (min-width:768px) {
+    
+    .contact .social {
+        
+        display:block;
+        width: 49%;
+        margin: 0 auto;
+    }
+    
+    .contact .social span {
+    
+    line-height: 72px;
+    font-size: 15px;
+    
+}
+}
+
+@media (min-width:1024px) {
+    
+    
+    
+    .contact form, .contact .socials {
+        
+        float: left;
+        width: 50%;
+        padding: 0;
+    }
+    
+    .contact .social span {
+    
+    font-size: 9px;
+    
+}
+    .contact social {
+        
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .contact input {
+    
+    height: 45px;
+    font-size: 24px;
+   
+}
+
+.contact textarea {
+    
+    height: 190px;
+    font-size: 24px;
+}
+
+.contact button {
+    
+    font-size: 18px;
+    line-height: 40px;
+    border: 2px solid white;
+    color: black;
+    background-color: transparent;
+}
+    
+contact input, .contact button, textarea {
+    
+    margin-bottom: 40px;
+    
+}
+    
+    .contact button:hover {
+        
+        
+    }
+    
+    .contact h1 {
+        
+        padding: 30px;
+        font-size: 35px;
+    }
+    
+}
+
+@media (min-width:1366px) {
+    
+    
+    .contact {
+        
+        padding: 40px;
+    }
+    
+     .contact h1 {
+        
+        padding: 40px;
+        font-size: 35px;
+    }
+    
+    .contact button {
+        
+        transition: 1s;
+        color: white;
+        cursor: pointer;
+    }
+    
+    
+      .contact button:hover {
+        
+          border: 2px solid white;
+          background-image: linear-gradient(to right, #4b6cb7 0%, #182848 51%, #4b6cb7 100%);
+          
+        
+    }
+    
+       .contact .social span {
+    
+    font-size: 17px;
+    
+    }
+    
+}
+
+/* SEKCJA FOOTER */
+
+
+footer {
+    
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
